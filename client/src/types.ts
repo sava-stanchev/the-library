@@ -22,13 +22,11 @@ export interface User {
     exp: number;
 }
 
-export interface ListedUser {
+export interface UserListItem {
   id: number;
   username: string;
   email: string;
-  is_admin: number;
-  is_deleted: number;
-  password: string;
+  role: string;
 }
 
 export interface Review {
